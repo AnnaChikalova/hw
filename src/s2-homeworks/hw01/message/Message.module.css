@@ -6,7 +6,7 @@
     margin: 70px;
 }
 
-.imageAndText {
+.imageAndText  {
     display: flex;
     justify-content: start;
 }
