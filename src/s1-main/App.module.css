@@ -1,5 +1,13 @@
+
 .App {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    height: 100%;
     --header_height: 60px;
+    border: 1px solid red;
+
 }
 
 .hw {
