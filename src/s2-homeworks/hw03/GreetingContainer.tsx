@@ -58,15 +58,7 @@ const GreetingContainer:
     }
 
     const totalUsers = users.length// need to fix
-    const lastUserName = 'some name'// need to fix
-    // const lastUsName = () => {
-    //     for (let i = 0; i < users.length; i++) {
-    //         if (i === users.length - 1) {
-    //             return users[i].name
-    //         }
-    //     }
-    //     let lastUserName=lastUsName()
-
+    const lastUserName = users[(users.length)-1].name// need to fix
 
         return (
             <Greeting
