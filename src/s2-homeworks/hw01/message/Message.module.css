@@ -4,13 +4,14 @@
     justify-content: center;
     align-items: end;
     margin: 70px;
+
 }
 
 .imageAndText  {
     display: flex;
     flex-direction: row-reverse;
     justify-content: start;
-    position: absolute;
+    position: relative;
 
 }
 .imageAndText img {

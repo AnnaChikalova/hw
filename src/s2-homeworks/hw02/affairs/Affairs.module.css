@@ -51,9 +51,11 @@
 
 .affairs {
     display: flex;
+    flex-direction: column;
     gap: 17px;
     flex-wrap: wrap;
     max-width: 450px;
+    max-height: 200px;
     margin: 25px 70px;
 
 }
