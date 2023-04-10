@@ -22,7 +22,7 @@ export const pureOnBlur = (name: string, setError: (error: string) => void) => {
     if (name.trim() === '') {
         setError('Ошибка! Введите имя!')
     }
-    setError('')
+
 }
 
 export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: () => void) => { // если нажата кнопка Enter - добавить
