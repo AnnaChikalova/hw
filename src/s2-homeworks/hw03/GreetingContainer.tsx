@@ -64,8 +64,6 @@ const GreetingContainer:
     // need to fix
 
 
-    // const lastUserName = 'some name' // need to fix
-
     return (
         <Greeting
             name={name}
