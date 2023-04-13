@@ -1,15 +1,60 @@
 .radio {
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    top: 2px;
+    border-radius: 0px;
+    color: black;
+
+
+
+    background: #000000;
+
 }
 
 .radio::before {
+    height: 20px;
+    width: 20px;
+    left: 2px;
+    top: 2px;
+    border-radius: 0px;
+
+    background: black;
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
 }
 
 
 .radio:checked::before {
+    height: 20px;
+    width: 20px;
+    left: 362px;
+    top: 590px;
+    border-radius: 0px;
+    background: black;
+
 }
 
 .label {
+    display: flex;
+    gap: 10px;
+
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.span {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
+
 }

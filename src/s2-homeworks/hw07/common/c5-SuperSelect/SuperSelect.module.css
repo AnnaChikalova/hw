@@ -1,9 +1,32 @@
 .select {
+    box-sizing: border-box;
+
+    width: 165px;
+    height: 24px;
+    left: 70px;
+    top: 588px;
+
+    background: #FFFFFF;
+    border: 1px solid black;
+    border-radius: 2px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #000000;
 }
+.select :active, select:hover, select:focus { outline: none; }
 
 .select:focus {
+    background-color: lightblue;
 }
 
 
 .option:hover {
+
 }
