@@ -7,6 +7,15 @@
     border-radius: 5px;
     height: 36px;
     width: 372px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: black;
 
 }
 input:active, input:hover, input:focus { outline: none; }
