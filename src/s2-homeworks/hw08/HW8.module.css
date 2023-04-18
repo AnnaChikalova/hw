@@ -1,23 +1,86 @@
-.item {
+.headContainer {
+display: flex;
+justify-content: center;
+    align-items: center;
+
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+    display: flex;
+    flex-direction: column;
+    width: 578px;
+    padding-bottom: 20px;
+    justify-content: space-around;
 }
 
 .buttonsContainer {
+    display: flex;
+    justify-content: end;
+    gap:15px;
+    width: 606px;
+    padding-bottom: 20px;
 }
 
 .container {
+    padding: 30px 300px 30px 70px;
 }
 
 .thead {
+    width: 606px;
+    height: 36px;
+
+
+
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    margin-bottom: 10px;
+    /*margin-left: 30px;*/
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+
+
 }
 
 .nameCol {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    /*padding-right: 180px;*/
+    /*padding-top: 10px;*/
+    /*padding-bottom: 10px;*/
+    gap:10px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    justify-content: center;
+
+
 }
 
 .ageCol {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    color: #000000;
 }
