@@ -1,3 +1,17 @@
 .loader {
     /*свг и/или анимация*/
 }
+.buttonLoader {
+    padding-left: 70px;
+    padding-bottom: 40px;
+
+    min-height: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
