@@ -41,6 +41,8 @@ function HW11() {
                             // сделать так чтоб value1 изменялось // пишет студент
 
                         />
+                        <span> </span>
+                        <span> </span>
                     </div>
                     <div className={s.wrapper}>
                         <span id={'hw11-value-1'} className={s.number}>{value1}</span>
