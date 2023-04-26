@@ -19,5 +19,9 @@ html {
 }
 
 .select {
-
+ margin-top: 5px;
+}
+.container {
+    padding-left: 70px;
+    padding-bottom: 30px;
 }
