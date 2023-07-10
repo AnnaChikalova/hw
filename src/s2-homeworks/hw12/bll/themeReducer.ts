@@ -10,7 +10,6 @@ export const themeReducer = (state = initState, action: changeThemeIdType): type
                 themeId: Number(action.id)
             }
 
-
         // дописать
 
         default:
