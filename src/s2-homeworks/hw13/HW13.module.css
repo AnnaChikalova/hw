@@ -1,7 +1,36 @@
 .buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 119px;
+    height: 100px;
+    top: 200px;
+    left: 70px;
+    /*padding: 5px 24px 5px 4px;*/
+    border-radius: 3px;
+    border: 1px;
+    gap: 30px;
+    margin: 40px 60px 10px 70px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    white-space: nowrap;
+    min-width: 20px;
+
 }
 
 .responseContainer {
+    display: flex;
+    flex-direction: row;
+    width: 1022px;
+    height: 316px;
+    top: 260px;
+    margin-left: 140px;
+    margin-bottom: 50px;
+    gap: 70px;
+
 }
 
 .imageContainer {
@@ -10,13 +39,44 @@
 .image {
 }
 
-.textContainer{
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .code {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    font-weight: bold;
+
+
 }
 
 .text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    font-weight: bold
 }
+
 .info {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    font-weight: bold
+
 }
