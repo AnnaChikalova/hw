@@ -34,9 +34,10 @@ const HW13 = () => {
         axios
             .post(url, {success: x})
             .then((res) => {
-                setCode('Код 200!')
+                console.log(res)
+                setCode(`Код ${res.status}!`)
                 setImage(success200)
-                setText(res.data.text)
+                setText(res.data.errorText)
                 setInfo(res.data.info)
                 // дописать
 
