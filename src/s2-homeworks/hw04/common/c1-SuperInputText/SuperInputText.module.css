@@ -24,9 +24,12 @@ input:active, input:hover, input:focus { outline: none; }
 .inputWrapper {
     display: flex;
     flex-direction: column-reverse;
+
+;
 }
 
 .superInput {
+
 }
 
 .errorInput {
